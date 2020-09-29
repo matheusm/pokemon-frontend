@@ -1,0 +1,15 @@
+.lastPokemons {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.lastPokemonsTitle {
+  color: #72808e;
+  font-weight: bold;
+  margin-left: 24px;
+}
+.listLastPokemons {
+  display: flex;
+  margin-bottom: 56px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

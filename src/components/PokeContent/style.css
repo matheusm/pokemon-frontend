@@ -1,0 +1,53 @@
+.poke-content {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.retangle-text-content {
+  width: 541px;
+  height: 560px;
+  background: #ffd029;
+  margin-top: 28px;
+  padding: 46px 48px 48px 50px;
+  overflow: visible;
+}
+
+.retangle-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #ff6b18;
+}
+
+.retangle-paragraph {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a1a1a;
+}
+
+.retangle-button {
+  border-radius: 53px;
+  background-color: #ff6b18;
+  width: 197px;
+  height: 48px;
+  border: none;
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 33px;
+}
+
+@media (max-width: 1119px) {
+  .retangle-text-content {
+    width: 100%;
+    height: 580px;
+  }
+}
