@@ -9,7 +9,7 @@ import logoIcon from "../../assets/logo.svg";
 import menuIcon from "../../assets/icon-menu.svg";
 import IconMedia from "../IconMedia";
 import emailIcon from "../../assets/email.svg";
-import logoYooh from "../../assets/logo-yooh.svg"
+import logoYooh from "../../assets/logo-yooh.svg";
 
 function Footer() {
   return (
@@ -34,7 +34,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-content-bot">
-        <img src={logoIcon} alt="Logo"  className="logo-footer-xs"/>
+        <img src={logoIcon} alt="Logo" className="logo-footer-xs" />
         <p className="copy-footer">2020 &copy; Todos os direitos reservados.</p>
         <p className="p-footer-xs">Desenvolvido por</p>
         <img src={logoYooh} />

@@ -4,8 +4,22 @@
   background: #ffffff;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
   border-radius: 6px;
-  margin-left: 12px;
-  margin-right: 12px;
+  margin: 12px 12px 0 12px;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform .2s; 
+  cursor: pointer;
+}
+.pokemonCardSmall:hover{
+  transform: scale(1.1);
+}
+.pokemonCardSmall p{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  color: #ff6b18;
 }
 
 .pokemonCardBigger {
@@ -16,11 +30,18 @@
   border-radius: 6px;
   margin-right: 24px;
   margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform .2s; 
+  cursor: pointer;
+}
+.pokemonCardBigger:hover{
+  transform: scale(1.1);
 }
 
 .pokemonCardTitle {
   margin-bottom: 20px;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -28,6 +49,10 @@
   line-height: 28px;
 
   color: #72808e;
+}
+
+.imagePokeBigger{
+  width: 200px;
 }
 
 @media (max-width: 425px) {

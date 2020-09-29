@@ -1,18 +1,16 @@
 import React from "react";
-import "./style.css";
 import PokemonCard from "../PokemonCard";
 
-function LastPokemons() {
+import "./style.css";
+
+function LastPokemons(props) {
   return (
     <section className="lastPokemons">
       <h2 className="lastPokemonsTitle">Ultimos Pokemons</h2>
       <div className="listLastPokemons">
-        <PokemonCard isSmall />
-        <PokemonCard isSmall />
-        <PokemonCard isSmall />
-        <PokemonCard isSmall />
-        <PokemonCard isSmall />
-        <PokemonCard isSmall />
+        {props.pokeCards.map((poke) => (
+          <PokemonCard isSmall pokeName={poke.name} />
+        ))}
       </div>
     </section>
   );

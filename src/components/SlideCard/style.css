@@ -1,0 +1,19 @@
+
+.cardForFullScreen{
+    width: 16.5rem;
+    margin: auto;
+  }
+
+.cardForSmallScreen{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.slick-prev:before, .slick-next:before{
+  color: #ff6b18 !important; 
+  font-size: 25px !important;
+}
+
+.slick-dots li button:before{
+  color: #ff6b18 !important; 
+}

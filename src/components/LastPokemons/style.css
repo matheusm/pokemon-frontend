@@ -6,10 +6,25 @@
   color: #72808e;
   font-weight: bold;
   margin-left: 24px;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 .listLastPokemons {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   margin-bottom: 56px;
-  flex-wrap: wrap;
-  justify-content: center;
+}
+
+@media (max-width: 1335px) {
+  .listLastPokemons {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 425px) {
+  .pokemonCardSmall {
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 20px;
+  }
 }
